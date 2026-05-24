@@ -47,7 +47,7 @@ for i in range(30):
   )
   )
   if viewers > 900:
-  st.warning("High Video Traffic Detected!")
+   st.warning("High Video Traffic Detected!")
   time.sleep(1)
   csv = df.to_csv(index =False)
   st.download_button(
