@@ -36,7 +36,7 @@ for i in range(30):
   total_viewers +=viewers
   total_watch_time +=watch_time
   viewer_metric.metric("Total Viewers", total_viewers)
-  watch_metric.metric("Total Watch Time", f"{total_watch_time} mins)
+  watch_metric.metric("Total Watch Time", f"{total_watch_time} mins")
   table_placeholder.dataframe(df)
   chart.add_rows(
   pd.DataFrame(
