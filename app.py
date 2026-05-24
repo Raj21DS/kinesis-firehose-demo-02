@@ -12,7 +12,7 @@ for i in range(20):
   "device_id": random.randint(1000, 9999),
   "temperature": random.randint(20,40),
   "humidity": random.randint(40,90),
-  "time": datetime.now().strftime("%H:%M:%S)
+  "time": datetime.now().strftime("%H:%M:%S")
 }
 data.append(new_data)
 df = pd.DataFrame(data)
